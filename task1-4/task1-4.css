@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0}
+body{
+    align: center;
+}
+
+.box{
+    width: 400px;
+    height:200px;
+    background-color: #cccccc;
+    left:50%;
+    top:50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    position: absolute;
+    overflow: hidden;
+}
+.circle1{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    position: relative;
+    background-color:#fc0;
+}
+.circle2{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: relative;
+    background-color:#fc0;
+}
+

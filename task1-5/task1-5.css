@@ -1,0 +1,149 @@
+*{margin:0;padding:0}
+div{
+    width:97%;
+    background-color: lavender;
+}
+header{
+    height:100px;
+    background-color:dimgray;
+}
+.img1{
+    height:100px;
+    width:150px;
+}
+nav ul {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav ul li {
+    float: left;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+nav ul li a:hover{
+    color:salmon;
+}
+body{
+    background-color:white;
+    font-family: 宋体;
+}
+div main{
+    overflow: hidden;
+    width: 63%;
+}
+article{
+    background-color:white;
+    margin: 15px;
+    padding:15px;
+    box-shadow: 3px 3px lightgrey;
+}
+h2{
+    font-family: 黑体;
+    font-weight:bold;
+}
+h3{
+    font-family: 黑体;
+    font-weight:bold;
+    color:gray;
+}
+h4{
+    font-size:14px;
+    color:gray;
+}
+
+.p1{
+    text-indent: 2em;
+    font-family: 微软雅黑;
+}
+.p2{
+    font-family: 微软雅黑;
+}
+.two ul li{
+    font-family: 黑体;
+    list-style: none;
+    line-height:1.5em;
+}
+.three figure{
+    width:180px;
+    height:200px;
+    border:1px solid lightgray;
+    padding:30px auto;
+}
+figcaption{
+    padding-top: 10px;
+    text-align: center;
+}
+.three img{
+    width:130px;
+    height:150px;
+    padding: 10px 23px;
+}
+.four ol li{
+    font-family: 黑体;
+    line-height:1.5em;
+}
+.four table{
+    width:95%;
+    border:1px solid darkgray;
+}
+.td1{
+    background-color:dimgray;
+    color:white;
+    font-family: 微软雅黑;
+}
+.td2{
+    background-color: darkgray;
+    font-family: 微软雅黑;
+    font-weight: bold;
+}
+div aside{
+    float: right;
+    background-color:white;
+    margin: 15px;
+    padding:15px;
+    width: 30%;
+    box-shadow: 3px 3px lightgrey;
+}
+aside table{
+    width:100%;
+}
+aside table tr td:first-child {
+    text-align: right;
+    font-size: 15px;
+    width: 45%;
+}
+aside table tr td:last-child {
+    text-align:left;
+}
+
+aside table span{
+    color:darkgrey;
+    font-size:16px;
+    line-height:20px;
+}
+aside table input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #3452CE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #828282;
+    font-size: 100%;
+    cursor: pointer;
+}
+footer{
+    width:100%;
+    height:50px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    text-align:center;
+    line-height: 50px;
+}
